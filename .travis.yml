@@ -3,6 +3,8 @@ os:
   - linux
 compiler:
   - g++
+install:
+  - sudo pip install codecov
 script:
   - make
   - make test
